@@ -104,6 +104,9 @@ body {
     align-items: center;
     padding-top: 80px;
   }
+  body {
+    position: relative;
+  }
 
   .section,
   .cuerpo {
@@ -111,21 +114,22 @@ body {
     margin: 10px auto;
   }
 
-  /* .nav-container {
-    position: static;
-    margin-bottom: 20px;
-    width: 100%;
-    margin-right: 1050px;
-  } */
-
-  .nav {
-    position: fixed;
+  .nav-container {
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 350px;
+    z-index: 999;
+    width: 100%;
     max-width: 500px;
-    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    margin-top: -520px;
+  }
+
+  .nav {
+    width: 100%;
     background-color: #5a5a5a;
     border-radius: 20px;
     padding: 10px 15px;
