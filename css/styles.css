@@ -8,18 +8,64 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #383838;
+  background-color: rgb(31, 31, 31);
   width: 100%;
   overflow-x: hidden;
   font-family: Arial, sans-serif;
 }
 
+.inf {
+  margin-right: 150px;
+  color: white;
+}
+
+.cel {
+  margin-left: 10px;
+  height: 50px;
+}
+.cel-2 {
+  margin-top: -50px;
+  margin-left: 80px;
+  color: #e1a92b;
+}
+.cel-1 {
+  margin-top: -10px;
+  margin-left: 80px;
+}
+
+.email {
+  margin-top: 20px;
+  margin-left: 70px;
+  height: 50px;
+}
+.mail-1 {
+  margin-top: -50px;
+  margin-left: 130px;
+  color: #e1a92b;
+}
+.mail-2 {
+  margin-top: -10px;
+  margin-left: 130px;
+}
 /* Contenedor principal */
 #Inicio {
   min-height: 100vh;
   display: flex;
   padding: 20px;
   box-sizing: border-box;
+}
+.inicio-1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.inicio-2 {
+  color: #e1a92b;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 40px;
+}
+.inicio-3 {
+  text-align: center;
 }
 
 .section {

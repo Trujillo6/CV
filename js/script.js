@@ -2,16 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const contenidos = {
     inicio: `
       <div class="content-section" id="inicio-content">
-        <h2>Bienvenido a mi Portafolio</h2>
-        <p>Soy Alejandro Trujillo, profesional en desarrollo de software. Este es mi espacio personal donde comparto mi experiencia, proyectos y habilidades.</p>
-        <div class="highlights">
-          <h3>Destacados:</h3>
-          <ul>
-            <li>+5 años de experiencia en desarrollo web y móvil</li>
-            <li>Especializado en sistemas ERP y apps Android</li>
-            <li>Tecnologías principales: JavaScript, PHP, Kotlin, Angular</li>
-          </ul>
-        </div>
+      <h1 class="inicio-2">Soy <br> Alejandro Trujillo Buendia </h1>
+      <h2 class="inicio-1">Bienvenido a mi Portafolio</h2>
+      <h3 class="inicio-3">Un gusto que estes aquí !!</h3>
+
+        
       </div>
     `,
     sobremi: `
