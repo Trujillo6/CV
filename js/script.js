@@ -10,24 +10,70 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     `,
     sobremi: `
-      <div class="content-section" id="sobremi-content">
-        <h2>Sobre Mí</h2>
-        <p>Profesional apasionado por la tecnología con experiencia en diversos proyectos y herramientas.</p>
-        <div class="info-section">
-          <h3>Experiencia Profesional</h3>
-          <ul>
-            <li><strong>COINTIC</strong> - Desarrollador ERP (2024-Actualidad)</li>
-            <li><strong>Freelance</strong> - Proyectos Android y Web (2019-2023)</li>
-          </ul>
+    <div class="content-section" id="sobremi-content">
+          <h2 class="titulo-s">Sobre Mi</h2>
+          <div class="info-section-1">
+            <h3>Extracto</h3>
+            <hr />
+            <p>
+              Soy un estudiante de ingeniería en sistemas computacionales en el
+              TESCHA, donde me destaco por mi capacidad para aprender
+              rápidamente y mi habilidad para trabajar de manera efectiva en
+              equipo. Poseo sólidos conocimientos en lenguajes de programación
+              como Python, Java y HTML, así como en bases de datos MySQL.
+            </p>
+          </div>
+          <div class="info-section-2">
+            <h3>Educación</h3>
+            <hr />
+            <ul>
+              <li>
+                <strong>Escuela Preparatoria Oficial 161</strong> - (2016-2019)
+              </li>
+              <li>
+                <strong>Tecnológico de Estudios Superiores de Chalco</strong> -
+                Grado en Ingeniería, Desarrollo de sistemas para la industria
+                4.0 (2020 - 2025)
+              </li>
+            </ul>
+          </div>
+          <div class="info-section-3">
+            <h3>Experiencia Laboral</h3>
+            <hr />
+            <ul>
+              <li>
+                <strong>DIXI PROJECT</strong> - DESARROLLADOR DE APLICACIONES
+                MÓVILES Agosto del 2023 – Enero del 2024
+              </li>
+              <li>
+                <strong>SYSTEMKW</strong> - DESARROLLADOR DE PAGINAS WEB Enero
+                del 2024 – Julio del 2024
+              </li>
+            </ul>
+          </div>
+          <div class="info-section-4">
+            <h3>Habilidades de Gestión y Metodologías</h3>
+            <hr />
+            <ul>
+              <li><strong>Metodologías Ágiles: </strong> Scrum, Kanban</li>
+              <li>
+                <strong>Documentación Técnica: </strong> UML, diagramas de
+                flujo, casos de uso.
+              </li>
+            </ul>
+          </div>
+          <div class="info-section-5">
+            <h3>Habilidades Blandas</h3>
+            <hr />
+            <ul>
+              <li>Resolución de problemas y pensamiento crítico.</li>
+              <li>Trabajo en equipo y colaboración.</li>
+              <li>Comunicación efectiva (técnica y no técnica).</li>
+              <li>Adaptabilidad y aprendizaje continuo.</li>
+              <li>Gestión del tiempo y organización.</li>
+            </ul>
+          </div>
         </div>
-        <div class="info-section">
-          <h3>Educación</h3>
-          <ul>
-            <li><strong>Universidad Tecnológica</strong> - Ingeniería en TIC (2018-2022)</li>
-            <li><strong>Certificaciones</strong> - Desarrollo Web, Android, UI/UX</li>
-          </ul>
-        </div>
-      </div>
     `,
     cursos: `
       <div class="content-section" id="cursos-content">

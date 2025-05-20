@@ -142,6 +142,36 @@ body {
   text-align: center;
   margin: 20px 0;
 }
+.titulo-s {
+  color: #e1a92b;
+  font-size: 50px;
+  margin-left: 150px;
+}
+.info-section-1 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+}
+.info-section-2 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+}
+.info-section-3 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+}
+.info-section-4 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+}
+.info-section-5 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+}
 
 /* Diseño responsivo */
 @media (max-width: 768px) {
@@ -201,6 +231,23 @@ body {
 
   .inicio-2 {
     margin-top: -5px;
+  }
+  .info-section-1,
+  .info-section-2,
+  .info-section-3,
+  .info-section-4,
+  .info-section-5 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .titulo-s {
+    font-size: 35px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
   }
 }
 
