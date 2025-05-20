@@ -20,32 +20,32 @@ body {
 }
 
 .cel {
-  margin-left: 10px;
+  margin-left: 100px;
   height: 50px;
 }
 .cel-2 {
   margin-top: -50px;
-  margin-left: 80px;
+  margin-left: 230px;
   color: #e1a92b;
 }
 .cel-1 {
   margin-top: -10px;
-  margin-left: 80px;
+  margin-left: 215px;
 }
 
 .email {
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: 100px;
   height: 50px;
 }
 .mail-1 {
   margin-top: -50px;
-  margin-left: 130px;
+  margin-left: 230px;
   color: #e1a92b;
 }
 .mail-2 {
   margin-top: -10px;
-  margin-left: 130px;
+  margin-left: 170px;
 }
 /* Contenedor principal */
 #Inicio {
@@ -171,7 +171,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px 15px;
-    margin-top: -520px;
+    margin-top: -710px;
   }
 
   .nav {
@@ -197,6 +197,10 @@ body {
   .nav a {
     font-size: 14px;
     padding: 6px 10px;
+  }
+
+  .inicio-2 {
+    margin-top: -5px;
   }
 }
 
