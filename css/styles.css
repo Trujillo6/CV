@@ -172,6 +172,27 @@ body {
   margin-left: 50px;
   text-align: justify;
 }
+.info-section-6 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e1a92b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #c4881e;
+}
 
 /* Diseño responsivo */
 @media (max-width: 768px) {
@@ -248,6 +269,11 @@ body {
     margin: 0 auto;
     margin-bottom: 50px;
     text-align: center;
+  }
+  .info-section-6 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
   }
 }
 

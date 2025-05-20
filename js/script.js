@@ -73,6 +73,20 @@ document.addEventListener("DOMContentLoaded", function () {
               <li>Gestión del tiempo y organización.</li>
             </ul>
           </div>
+          <div class="info-section-6">
+            <h3>Currículum Vitae</h3>
+            <hr />
+            <p>
+              Puedes descargar mi currículum en formato PDF dando clic en el
+              siguiente botón:
+            </p>
+            <a
+              href="/archivos/CURRICULUM TRUJILLO_2.pdf"
+              download
+              class="cv-button"
+              >Descargar CV</a
+            >
+          </div>
         </div>
     `,
     cursos: `
