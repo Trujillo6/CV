@@ -90,22 +90,74 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
     `,
     cursos: `
-      <div class="content-section" id="cursos-content">
-        <h2>Mis Cursos y Certificaciones</h2>
-        <p>Formación continua para mantenerme actualizado en las últimas tecnologías.</p>
-        <div class="course-grid">
-          <div class="course-card">
-            <h3>Curso de Desarrollo Web</h3>
-            <p>Platzi - 2022</p>
-            <p>Habilidades: HTML, CSS, JavaScript</p>
+      <div class="content-section" id="sobremi-content">
+          <h2 class="titulo-C">Habilidades Técnicas</h2>
+          <div class="info-curso-1">
+            <h3>Lenguajes de Programación</h3>
+            <hr />
+            <div class="lenguajes">
+              <img src="media/Java.png" alt="" />
+              <img src="media/Python.png" alt="" />
+              <img src="media/C++.png" alt="" />
+              <img src="media/c-sharp.png" alt="" />
+              <img src="media/JavaScript-logo.png" alt="" />
+              <img src="media/PHP.png" alt="" />
+            </div>
           </div>
-          <div class="course-card">
-            <h3>Certificación en UX/UI</h3>
-            <p>Google UX Design - 2023</p>
-            <p>Diseño centrado en el usuario</p>
+          <div class="info-curso-2">
+            <h3>Desarrollo Web</h3>
+            <hr />
+            <div class="lenguajes">
+              <img src="media/HTML5.png" alt="" />
+              <img src="media/CSS3.png" alt="" />
+              <img src="media/JavaScript-logo.png" alt="" />
+              <img src="media/React.png" alt="" />
+              <img src="media/Angular.png" alt="" />
+              <img src="media/nodejs.png" alt="" />
+              <img src="media/Django-Logo.png" alt="" />
+              <img src="media/flask.png" alt="" />
+            </div>
+          </div>
+          <div class="info-curso-3">
+            <h3>Bases de Datos</h3>
+            <hr />
+            <div class="lenguajes">
+              <img src="media/MySQL.png" alt="" />
+              <img src="media/postgresql.png" alt="" />
+              <img src="media/MongoDB_Logo.svg.png" alt="" />
+              <img src="media/firebase.png" alt="" />
+            </div>
+          </div>
+          <div class="info-curso-4">
+            <h3>Desarrollo Móvil</h3>
+            <hr />
+            <div class="lenguajes">
+              <img src="media/android_w_java.png" alt="" />
+            </div>
+          </div>
+          <div class="info-curso-5">
+            <h3>Sistemas Operativos</h3>
+            <hr />
+            <div class="lenguajes">
+              <img src="media/Windows_11_logo.svg.png" alt="" />
+              <img src="media/ubuntu-logo-vector.svg" alt="" />
+              <img src="media/Fedora_logo.svg.png" alt="" />
+            </div>
+          </div>
+          <div class="info-curso-6">
+            <h3>Herramientas de Desarrollo</h3>
+            <hr />
+            <div class="lenguajes">
+              <img src="media/git.png" alt="" />
+              <img src="media/github.png" alt="" />
+              <img src="media/jira.png" alt="" />
+              <img src="media/Visual_Studio_Code_1.35_icon.svg.png" alt="" />
+              <img src="media/eclipse.png" alt="" />
+              <img src="media/netbeans.png" alt="" />
+              <img src="media/postman.png" alt="" />
+            </div>
           </div>
         </div>
-      </div>
     `,
     contacto: `
       <div class="content-section" id="contacto-content">

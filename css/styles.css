@@ -269,6 +269,32 @@ body {
   body {
     position: relative;
   }
+  /* Zona cursos */
+  .lenguajes {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .lenguajes img {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+
+  .content-section {
+    padding: 0 15px;
+  }
+
+  .info-curso-1,
+  .info-curso-2,
+  .info-curso-3,
+  .info-curso-4,
+  .info-curso-5,
+  .info-curso-6 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+  }
 
   .section,
   .cuerpo {
@@ -328,7 +354,8 @@ body {
     text-align: justify;
   }
 
-  .titulo-s {
+  .titulo-s,
+  .titulo-C {
     font-size: 35px;
     width: 90%;
     margin: 0 auto;
