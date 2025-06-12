@@ -205,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   class="icono-contacto"
                 />
                 <strong>Ubicación:</strong>
-                <span>Ciudad de México, México</span>
+                <span>Amecameca</span>
               </p>
             </div>
           </div>
