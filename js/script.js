@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a
                   href="https://www.linkedin.com/in/trujillo-buendia-alejandro-a5b292312/"
                   target="_blank"
-                  >linkedin.com/in/alejandrotb</a
+                  >linkedin.com/in/alejandro</a
                 >
               </p>
 
