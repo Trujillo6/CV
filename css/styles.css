@@ -193,6 +193,71 @@ body {
 .cv-button:hover {
   background-color: #c4881e;
 }
+/* Zona de Cursos */
+.lenguajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; /* Espaciado uniforme entre imágenes */
+  padding: 20px;
+}
+
+.lenguajes img {
+  width: 80px; /* O ajusta según el tamaño deseado */
+  height: 80px;
+  object-fit: contain; /* Mantiene la proporción sin deformar */
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(4, 4, 4, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.lenguajes img:hover {
+  transform: scale(1.1);
+}
+
+.titulo-C {
+  color: #e1a92b;
+  font-size: 50px;
+  margin-left: 70px;
+}
+.info-curso-1 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+  margin-top: 30px;
+}
+.info-curso-2 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+  margin-top: 30px;
+}
+.info-curso-3 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+  margin-top: 30px;
+}
+.info-curso-4 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+  margin-top: 30px;
+}
+.info-curso-5 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+  margin-top: 30px;
+}
+.info-curso-6 {
+  width: 900px;
+  margin-left: 50px;
+  text-align: justify;
+  margin-top: 30px;
+}
 
 /* Diseño responsivo */
 @media (max-width: 768px) {

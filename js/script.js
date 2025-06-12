@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <h3>Extracto</h3>
             <hr />
             <p>
-              Soy un estudiante de ingeniería en sistemas computacionales en el
+              Soy ingeniero de la carrera de  ingeniería en sistemas computacionales en el
               TESCHA, donde me destaco por mi capacidad para aprender
               rápidamente y mi habilidad para trabajar de manera efectiva en
               equipo. Poseo sólidos conocimientos en lenguajes de programación
