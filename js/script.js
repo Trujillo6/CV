@@ -160,30 +160,56 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
     `,
     contacto: `
-      <div class="content-section" id="contacto-content">
-        <h2>Contacto</h2>
-        <p>¡Estoy disponible para oportunidades y colaboraciones!</p>
-        <div class="contact-info">
-          <p><strong>Email:</strong> alejandrotb@ejemplo.com</p>
-          <p><strong>Teléfono:</strong> +52 123 456 7890</p>
-          <p><strong>LinkedIn:</strong> linkedin.com/in/alejandrotb</p>
+      <div class="content-section" id="sobremi-content">
+          <h2 class="titulo-Co">Contacto</h2>
+          <div class="info-contacto-1">
+            <div class="contact-info">
+              <p>
+                <img src="media/Email.png" alt="Email" class="icono-contacto" />
+                <strong>Email:</strong>
+                <a href="mailto:alex55trujillo@gmail.com"
+                  >alex55trujillo@gmail.com</a
+                >
+              </p>
+
+              <p>
+                <img
+                  src="media/Celular.png"
+                  alt="WhatsApp"
+                  class="icono-contacto"
+                />
+                <strong>Teléfono:</strong>
+                <a href="https://wa.me/525622019686" target="_blank"
+                  >5622019686</a
+                >
+              </p>
+
+              <p>
+                <img
+                  src="media/internet-svgrepo-com.svg"
+                  alt="LinkedIn"
+                  class="icono-contacto"
+                />
+                <strong>LinkedIn:</strong>
+                <a
+                  href="https://www.linkedin.com/in/trujillo-buendia-alejandro-a5b292312/"
+                  target="_blank"
+                  >linkedin.com/in/alejandrotb</a
+                >
+              </p>
+
+              <p>
+                <img
+                  src="media/ubicacion.png"
+                  alt="Ubicación"
+                  class="icono-contacto"
+                />
+                <strong>Ubicación:</strong>
+                <span>Ciudad de México, México</span>
+              </p>
+            </div>
+          </div>
         </div>
-        <form class="contact-form">
-          <div class="form-group">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
-          </div>
-          <div class="form-group">
-            <label for="message">Mensaje:</label>
-            <textarea id="message" rows="5" required></textarea>
-          </div>
-          <button type="submit">Enviar Mensaje</button>
-        </form>
-      </div>
     `,
   };
 
